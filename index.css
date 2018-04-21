@@ -1,0 +1,39 @@
+header {
+    height: 350px;
+}
+
+#header span {
+    line-height: 430px;
+    display: block;
+    font-size: 50px;
+}
+
+.s1 {
+    float: right;
+    color: black;
+}
+
+.s2 {
+    float: left;
+    color: #dcb65b;
+}
+
+#llog {
+    width: 50%;
+    height: 360px;
+    float: left;
+    background-color: #cbcbcb;
+}
+
+#rlog {
+    width: 50%;
+    height: 360px;
+    float: right;
+    background-color: #1f1f1f;
+}
+
+nav {
+    font-family: OpenSans-Bold;
+    font-size: 15PX;
+    padding-left: 30px;
+}
