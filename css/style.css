@@ -1,0 +1,105 @@
+    * {
+        border: 1px solid red;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+    
+    .banner {
+        background: url(../img/banner.jpg) no-repeat 0px 0px;
+        ;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
+        min-height: 900px;
+    }
+    
+    .container_top {
+        height: 100px;
+    }
+    /*顶部 调试 */
+    
+    .container_left {
+        float: left;
+        background: crimson;
+    }
+    
+    .container_right {
+        float: right;
+        background: peru;
+    }
+    /* 导航栏调试 */
+    
+    .navbar-default {
+        background: none;
+    }
+    /* logo调试 */
+    
+    .logo {
+        background: red;
+        text-align: center;
+        height: 300px;
+    }
+    
+    .logo a {
+        font-size: 40px;
+        margin: 0px auto;
+    }
+    /* 名言调试 */
+    
+    .famous_saying {
+        background: aqua;
+        width: 60%;
+        font-size: 20px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    /* 登陆选项调试 */
+    
+    .logchose {
+        text-align: center;
+    }
+    
+    .logchose li {
+        display: inline-block;
+    }
+    /* 内容调试 */
+    
+    .banner_second {
+        width: 100%;
+        position: relative;
+    }
+    
+    .banner_second_left,
+    .banner_second_right {
+        height: 300px;
+        background: green;
+    }
+    /* .banner_second_centet {}
+    
+    .banner_second_centet h4 {
+        font-size: 30px;
+    } */
+    /* 第三屏 */
+    
+    .banner_bottom_left,
+    .banner_bottom_center,
+    .banner_bottom_right {
+        height: 300px;
+    }
+    /* 内容2 */
+    
+    .banner_seconds {
+        width: 100%;
+        position: relative;
+    }
+    
+    .banner_seconds_left,
+    .banner_seconds_right {
+        height: 300px;
+        background: green;
+    }
