@@ -1,4 +1,4 @@
-      {
+      * {
           border: 1px solid red;
       }
       
@@ -105,9 +105,26 @@
      } */
       /* 内容调试 */
       
-      .banner_second {}
+      .banner_second_Left {
+          max-width: 100%;
+      }
       
-      .banner_second_left {}
+      .banner_second_Left img {}
+      
+      .banner_second_right h3 {
+          font-size: 90px;
+          color: #D2D2D2;
+          margin: 0;
+          letter-spacing: 5px;
+      }
+      
+      .banner_second_right p {
+          color: #999;
+          margin: 16em 0 0;
+          line-height: 1.8em;
+          font-size: 14px;
+          width: 65%;
+      }
       /* .banner_second_centet {}
     
     .banner_second_centet h4 {
