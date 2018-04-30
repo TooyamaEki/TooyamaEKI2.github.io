@@ -1,105 +1,138 @@
-    * {
-        border: 1px solid red;
-    }
-    
-    .clearfix {
-        overflow: auto;
-    }
-    
-    .banner {
-        background: url(../img/banner.jpg) no-repeat 0px 0px;
-        ;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: contain;
-        background-repeat: no-repeat;
-        min-height: 900px;
-    }
-    
-    .container_top {
-        height: 100px;
-    }
-    /*顶部 调试 */
-    
-    .container_left {
-        float: left;
-        background: crimson;
-    }
-    
-    .container_right {
-        float: right;
-        background: peru;
-    }
-    /* 导航栏调试 */
-    
-    .navbar-default {
-        background: none;
-    }
-    /* logo调试 */
-    
-    .logo {
-        background: red;
-        text-align: center;
-        height: 300px;
-    }
-    
-    .logo a {
-        font-size: 40px;
-        margin: 0px auto;
-    }
-    /* 名言调试 */
-    
-    .famous_saying {
-        background: aqua;
-        width: 60%;
-        font-size: 20px;
-        text-align: center;
-        margin: 0px auto;
-    }
-    /* 登陆选项调试 */
-    
-    .logchose {
-        text-align: center;
-    }
-    
-    .logchose li {
-        display: inline-block;
-    }
-    /* 内容调试 */
-    
-    .banner_second {
-        width: 100%;
-        position: relative;
-    }
-    
-    .banner_second_left,
-    .banner_second_right {
-        height: 300px;
-        background: green;
-    }
-    /* .banner_second_centet {}
+      * {
+          border: 1px solid red;
+      }
+      
+      .clearfix {
+          overflow: auto;
+      }
+      
+      .banner {
+          background: url(../img/banner.jpg) no-repeat 0px 0px;
+      }
+      
+      .container_top {
+          height: 100px;
+          margin-top: 20px;
+      }
+      /*顶部 调试 */
+      
+      .container_left {
+          float: left;
+          line-height: 70px;
+      }
+      
+      .container_left img {
+          width: 50px;
+          height: 50px;
+      }
+      
+      .container_left p {
+          display: inline-block;
+          font-size: 18px;
+          word-spacing: 1px;
+          color: #D2D0C6;
+      }
+      
+      .container_left span {
+          color: #D2D0C6;
+          font-size: 1.5em;
+      }
+      
+      .container_right {}
+      
+      .container_right input {
+          background: none;
+          border: 1px solid #D2D0C6;
+          padding: 20px 20px 20px 20px;
+          line-height: 20px;
+          width: 100%
+      }
+      /* 导航栏调试 */
+      
+      .navbar {
+          background: none;
+          margin-top: 20px;
+          border: none;
+      }
+      
+      .navbar-toggle {
+          background: red;
+          float: none;
+          margin-left: 45%;
+      }
+      /* logo调试 */
+      
+      .logo {
+          text-align: center;
+          height: 300px;
+          margin-top: 100px;
+      }
+      
+      .logo a {
+          font-size: 6em;
+          color: #fff;
+          letter-spacing: 2px;
+          text-decoration: none;
+      }
+      
+      .logo span {
+          display: block;
+          font-size: .2em;
+          letter-spacing: 10px;
+          line-height: 0;
+          color: #D6D6D5;
+      }
+      /* 名言调试 */
+      
+      .famous_saying {
+          width: 60%;
+          text-align: center;
+          margin: 0px auto;
+      }
+      
+      .famous_saying p {
+          color: #fff;
+          font-size: 20px;
+      }
+      /* 登陆选项调试 */
+      /* .logchose {
+         text-align: center;
+         background: red;
+     }
+     
+     .logchose li {
+         display: inline-block;
+     } */
+      /* 内容调试 */
+      
+      .banner_second {}
+      
+      .banner_second_left {}
+      /* .banner_second_centet {}
     
     .banner_second_centet h4 {
         font-size: 30px;
     } */
-    /* 第三屏 */
-    
-    .banner_bottom_left,
-    .banner_bottom_center,
-    .banner_bottom_right {
-        height: 300px;
-    }
-    /* 内容2 */
-    
-    .banner_seconds {
-        width: 100%;
-        position: relative;
-    }
-    
-    .banner_seconds_left,
-    .banner_seconds_right {
-        height: 300px;
-        background: green;
-    }
+      /* 第三屏 */
+      
+      .banner_bottom_left,
+      .banner_bottom_center,
+      .banner_bottom_right {
+          height: 300px;
+      }
+      /* 内容2 */
+      
+      .banner_seconds {
+          width: 100%;
+          position: relative;
+      }
+      
+      .banner_seconds_left,
+      .banner_seconds_right {
+          height: 300px;
+          background: green;
+      }
+      
+      .contact-box {
+          height: 200px;
+      }
