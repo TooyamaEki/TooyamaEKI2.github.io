@@ -60,7 +60,6 @@
        }
        
        .navbar-toggle {
-           background: red;
            float: none;
            margin-left: 45%;
        }
@@ -142,7 +141,7 @@
        /* 第三屏 */
        
        .banner_bottom {
-           margin-top: 20px;
+           margin-top: 120px;
        }
        
        .banner_bottom_left img,
@@ -173,6 +172,10 @@
            margin: 20px 0 0;
        }
        /* 介绍什么的 */
+       
+       .banner_bottom1 {
+           margin-top: 80px;
+       }
        
        .banner_bottom1_right {
            margin: 32px 0 0;
@@ -209,7 +212,7 @@
            cursor: pointer;
            height: auto;
            margin: 0px auto;
-           line-height: 40px ! important;
+           line-height: 50px ! important;
            padding: 4px 50px;
            background: #83BFA6;
            font-size: 1em;
