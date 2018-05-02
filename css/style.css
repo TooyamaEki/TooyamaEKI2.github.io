@@ -251,6 +251,10 @@
             margin: 32px 0 0;
         }
         
+        .banner_bottom1 p {
+            color: #999;
+        }
+        
         .btn {
             display: inline-block;
             padding: 6px 12px;
@@ -317,6 +321,10 @@
             text-align: center;
         }
         
+        .contact-box {
+            padding: 3em 0 0;
+        }
+        
         .contact-box p {
             font-size: 1em;
             color: #999;
@@ -345,4 +353,8 @@
             margin: 0 auto;
             padding-bottom: 15px;
             margin: 3em auto 2em;
+        }
+        
+        .foot-end {
+            padding: 2em 0 0;
         }
