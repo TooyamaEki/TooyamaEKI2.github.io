@@ -77,7 +77,7 @@
         .navbar-nav {
             text-align: center;
             /* margin: 0px auto; */
-            margin-left: 290px;
+            margin-left: 250px;
         }
         
         .navbar-toggle {
@@ -91,12 +91,14 @@
         }
         
         .navbar-default .navbar-nav>li>a {
+            position: relative;
             color: white;
             text-transform: capitalize;
             font-size: 1.3em;
             color: #fff !important;
             letter-spacing: 2px;
             padding: auto 20px auto 20px;
+            margin-right: 14px;
         }
         /* logo调试 */
         
